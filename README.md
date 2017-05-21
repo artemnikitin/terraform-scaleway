@@ -17,3 +17,5 @@ terraform apply
 # to destroy
 terraform destroy -force
 ```
+### Additional info
+- description of Scaleway provider for Terraform https://www.terraform.io/docs/providers/scaleway/index.html
