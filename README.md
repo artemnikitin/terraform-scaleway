@@ -15,5 +15,5 @@ terraform plan
 terraform apply
 
 # to destroy
-terraform destroy
+terraform destroy -force
 ```
