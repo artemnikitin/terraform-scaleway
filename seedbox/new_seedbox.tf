@@ -1,5 +1,5 @@
 provider "scaleway" {
-  region       = "par1"
+  region = "par1"
 }
 
 data "scaleway_image" "image" {
@@ -8,9 +8,9 @@ data "scaleway_image" "image" {
 }
 
 resource "scaleway_server" "seedbox" {
-  name  = "seedbox"
-  image = "${data.scaleway_image.image.id}"
-  type  = "VC1S"
+  name           = "seedbox"
+  image          = "${data.scaleway_image.image.id}"
+  type           = "VC1S"
   security_group = "576f9d2e-c7f3-49d2-9657-eb289f9d0e08"
 }
 

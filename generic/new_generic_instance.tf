@@ -1,5 +1,5 @@
 provider "scaleway" {
-  region       = "par1"
+  region = "par1"
 }
 
 data "scaleway_image" "image" {
