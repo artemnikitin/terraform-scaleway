@@ -10,9 +10,11 @@ export SCALEWAY_TOKEN=yyy
 ### Run
 From folder with config execute:
 ```shell
+# to initialize
+terraform init
+
 # to create instance
-terraform plan
-terraform apply
+terraform apply -auto-approve
 
 # to destroy
 terraform destroy -force
